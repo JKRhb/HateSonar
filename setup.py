@@ -25,7 +25,7 @@ if sys.argv[-1] == 'publish':
     sys.exit()
 
 required = [
-    'numpy>=1.14.0', 'pandas>=0.22.0', 'scikit-learn>=0.19.1', 'scipy>=1.0.0', 'joblib>=0.16.0'
+    'numpy>=1.24.0', 'pandas>=1.5.2', 'scikit-learn>=1.2.0', 'scipy>=1.10.0', 'joblib>=1.2.0'
 ]
 
 setup(
